@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+
+# Environment files - NEVER PUSH
+.env
+.env.*
+!.env.example
+
+# Build files
+dist/
+build/
+.vite/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+
+# OS files
+.DS_Store

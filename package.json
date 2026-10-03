@@ -1,0 +1,23 @@
+{
+  "name": "engineer-ai-assistant",
+  "version": "1.0.0",
+  "description": "Engineer AI Assistant — Learn. Code. Debug. Prepare. Become an Engineer.",
+  "scripts": {
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "build": "npm --prefix backend run build && npm --prefix frontend run build"
+  },
+  "keywords": [
+    "engineer-ai",
+    "dsa",
+    "compiler-debugger",
+    "mock-interview",
+    "ats-resume",
+    "fullstack"
+  ],
+  "author": "Google DeepMind Pair Programming",
+  "license": "MIT",
+  "dependencies": {
+    "groq-sdk": "^1.6.0"
+  }
+}
